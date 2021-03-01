@@ -16,13 +16,11 @@ function Header({
   // TODO: accept a `menuItems` prop to receive menu items from WordPress.
   const menuItems = [
     { title: 'Home', href: '/' },
-    { title: 'About', href: '/about' },
-    { title: 'Posts', href: '/category/uncategorized' },
-    {
-      title: 'GitHub',
-      href: 'https://github.com/wpengine/headless-framework',
-      class: 'button',
-    },
+    { title: 'Research', href: '/research' },
+    { title: 'Blog', href: '/articles/blog' },
+    { title: 'Software & Web Development', href: '/articles/development' },
+    { title: 'About', href: '/contact' },
+
   ];
 
   return (
