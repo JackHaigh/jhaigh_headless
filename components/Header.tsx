@@ -19,7 +19,7 @@ function Header({
     { title: 'Research', href: '/research' },
     { title: 'Blog', href: '/articles/blog' },
     { title: 'Software & Web Development', href: '/articles/development' },
-    { title: 'Contact', href: '/contact' },
+    { title: 'Contact', href: '/contact' }
   ];
 
   return (
