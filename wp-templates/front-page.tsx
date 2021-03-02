@@ -37,7 +37,6 @@ export default function FrontPage(props: any): JSX.Element {
           posts={posts?.nodes}
           heading="Check out some of my latest posts.."
           intro="Wether its web & multimedia, or software & research, here are some of my latest articles."
-          bgImage="/images/MG_9009.jpg"
           headingLevel="h2"
           postTitleLevel="h3"
           id={styles.post_list}
