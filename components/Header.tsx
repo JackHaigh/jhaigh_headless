@@ -57,9 +57,9 @@ function Header({
               {menuItems &&
                 menuItems.map((item) => (
                   <li key={`${item.title}$-menu`}>
-                    <Link href={item.href}>
-                      <a className={item?.class}>{item.title}</a>
-                    </Link>
+                  <Link href={item.href}>
+                    <a>{item.title}</a>
+                  </Link>
                   </li>
                 ))}
             </ul>
