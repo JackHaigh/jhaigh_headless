@@ -11,7 +11,7 @@ export default function Page(): JSX.Element {
     <>
       <Header title={settings?.title} description={settings?.description} />
       <main className="content content-page">
-        <h2 class='page-header'>{post?.title}</h2>
+        <h2 className='page-header'>{post?.title}</h2>
         <div className="wrap">
           {post && (
             <div>
