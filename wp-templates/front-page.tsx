@@ -11,8 +11,7 @@ import styles from '../scss/wp-templates/front-page.module.scss';
  */
 const firstSixInCategory = {
   variables: {
-    first: 6,
-    where: { categoryName: 'uncategorized' }, // Omit this to get posts from all categories.
+    first: 3,
   },
 };
 
@@ -31,7 +30,7 @@ export default function FrontPage(props: any): JSX.Element {
         </Hero>
         <section className={styles.explore}>
                   <h1 className="intro-h1">Hello, I'm Jack</h1>
-                    <p className="intro-subline">A curious mind, wanting to bring you into the digital realm.</p>
+                    <p className="intro-subline">Content Creator, Audio Researcher & Apparently Makes Headless Sites Now</p>
         </section>
         <Posts
           posts={posts?.nodes}
