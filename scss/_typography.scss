@@ -1,8 +1,13 @@
 @import "variables";
 
 body {
-	font-family: $font-family;
-	font-weight: $font-weight-normal;
+	font-family: $body-font-family;
+	font-weight: 300;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,8 +21,17 @@ h1 {
 	font-size: 3.5em;
 }
 
+h1.intro-h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
 h2 {
 	font-size: 2.5em;
+}
+
+h2.page-header {
+	text-align:center;
 }
 
 h3 {
@@ -40,6 +54,14 @@ p {
 	margin-bottom: 1.2em;
 }
 
+p.intro-subline {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 300;
+  line-height: 1.875;
+	font-family: $body-font-family;
+}
+
 a {
 	color: $color-primary;
 }
@@ -47,4 +69,15 @@ a {
 a:focus,
 a:hover {
 	color: lighten($color-primary, 15);
+}
+
+footer {
+	font-family: $footer-font-family;
+	font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+	text-align: center;
+
 }

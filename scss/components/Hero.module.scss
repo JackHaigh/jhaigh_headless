@@ -3,12 +3,10 @@
 @import "scss/variables";
 
 .hero {
-	background-color: $color-dark-gray;
 	background-position: 48% 72%;
-	background-size: cover;
 	background-repeat: no-repeat;
 	color: $color-white;
-	padding: 7em 0 9em;
+	padding: 15em 0 9em;
 	position: relative;
 }
 
@@ -35,7 +33,6 @@
 	bottom: 0;
 	right: 0;
 	background-color: inherit;
-	opacity: 0.8;
 	z-index: 1;
 }
 
