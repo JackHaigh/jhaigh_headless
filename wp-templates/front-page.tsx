@@ -30,12 +30,8 @@ export default function FrontPage(props: any): JSX.Element {
           id={styles.home_hero}>
         </Hero>
         <section className={styles.explore}>
-            <div class="intro-heading">
-                <div class="intro-body">
                   <h1 class="intro-h1">Hello, I'm Jack</h1>
                     <p class="intro-subline">A curious mind, wanting to bring you into the digital realm.</p>
-                </div>
-            </div>
         </section>
         <Posts
           posts={posts?.nodes}
