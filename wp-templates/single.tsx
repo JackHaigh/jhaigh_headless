@@ -16,7 +16,7 @@ export default function Single(): JSX.Element {
     <>
       <Header title={ settings?.title } description={ settings?.description } />
       <main className="content content-single">
-        { post?.title && <Hero title={ post?.title } /> }
+        <h2 className='page-header'>{post?.title}</h2>
         <div className="wrap">
           { post && (
             <div>
@@ -27,19 +27,6 @@ export default function Single(): JSX.Element {
             </div>
           ) }
         </div>
-        <CTA
-          title="Start your headless journey today"
-          buttonText="Get Started"
-          buttonURL="https://github.com/wpengine/headless-framework/"
-          headingLevel="h2">
-          <p>
-            Learn more in the{ ' ' }
-            <a href="https://github.com/wpengine/headless-framework">
-              Headless Framework GitHub repository
-            </a>
-            .
-          </p>
-        </CTA>
       </main>
       <Footer copyrightHolder={ settings?.title } />
     </>
